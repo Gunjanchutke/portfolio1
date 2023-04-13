@@ -1,0 +1,172 @@
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Navigation */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  /* Header */
+  #header {
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+  }
+  
+  #header .container {
+    text-align: center;
+  }
+  
+  #header h1 {
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  #header h2 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  /* About */
+  #about {
+    background-color: #f4f4f4;
+  }
+  
+  #about h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #about .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Services */
+  #services {
+    background-color: #fff;
+  }
+  
+  #services h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #services .container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  #services .card {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  }
+  
+  #services .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  #services .card-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Projects */
+  #projects {
+    background-color: #f4f4f4;
+  }
+  
+  #projects h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #projects .card {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  }
+  
+  #projects .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  #projects .card-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Contact */
+  #contact {
+    background-color: #fff;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #contact form {
+    margin-top: 2rem;
+  }
+  
+  #contact label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  #contact input,
+  #contact textarea {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #343a40;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    box-shadow: none;
+    border-bottom-color: #bd2130;
+  }
+  
+  #contact button {
+    margin-top: 2rem;
+    background-color: #343a40;
+    border: none;
+  }
+  
+  #contact button:hover {
+    background-color: #bd2130;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
